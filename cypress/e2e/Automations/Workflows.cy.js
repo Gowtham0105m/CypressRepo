@@ -18,11 +18,16 @@ describe('Workflows', () => {
         methods.clickbyXpath(locator.Automations)
         methods.VisibilityofElement2(locator.pathtablist)
         methods.Verifytext1indexbyxpath(locator.Workflows, 'Workflows', 1)
+        cy.wait(3000)
         methods.clickbyXpath(locator.New_Workflow)
         methods.VisibilityofElement2(locator.deletepopupsegment)
         methods.clickbyXpath(locator.Add_new_contacts)
-        cy.wait(3000)
-        methods.VisibilityofElement2(locator.HubSpot_Tab)
+        methods.clickbyXpath(locator.Use_this_workflow)
+        methods.VisibilityofElement2(locator.pathtablist)
+        methods.clickelement(locator.Edit_Icon)
+        methods.ClearAndTypeWithXpath(locator.workflowname, 'testing')
+        methods.clickelement(locator.Performs_an_event)
+        
 
 
     })

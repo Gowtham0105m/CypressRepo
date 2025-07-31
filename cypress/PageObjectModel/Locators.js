@@ -85,7 +85,20 @@ class locator {
         this.Workflows = '//h4[text()="Workflows"]';
         this.New_Workflow = '//div[text()="New Workflow"]';
         this.Add_new_contacts = '//h4[text()="Add new contacts in HubSpot"]';
-        this.HubSpot_Tab = '.ant-modal-content';
+        this.Use_this_workflow = '//span[text()="Use this workflow"]';
+        this.Edit_Icon = '[data-icon="edit"]';
+        this.workflowname = '//textarea[@class="ant-input"]';
+        this.Performs_an_event = '[title="Performs an event"]';
+        this.Checkbox = '.ant-checkbox-input';
+        this.Hide = '//span[text()="Hide"]';
+        this.MovedSuccessfull_popup = '.ant-notification-notice-description';
+        this.General_Tab = '.fa-container fa__full-bleed-fix';
+        this.Set_engagement_window = '.ant-tabs-content-holder';
+        this.Hidden_Accounts = '//div[text()="Hidden Accounts"]';
+        this.SearchButton = '.ant-btn ant-btn-text';
+        this.searchType = '#basic_accounts_search';
+        this.Unhide = '//span[text()="Unhide"]';
+        this.Unhide_1 = '(//span[text()="Unhide"])[2]';
 
     }
 }
